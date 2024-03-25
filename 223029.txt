@@ -1,0 +1,44 @@
+1.Инсталирав
+2.Сменав во master
+3.Во десниот агол на плуската кликнав и ми излезе create new repository, потоа ја именував SI_2024_lab1_223029 и ја направив private И ја креирав
+4.Направив директориум со командата  mkdir SI_2024_lab1_223029 , потоа влегов во неа со командата  cd SI_2024_lab1_223029 и ја иницијализирав со  git init
+5.Го поврзав со линкот git remote add origin https://github.com/karadakoskid/SI_2024_lab1_223029.git
+6.Го направив филот README.md со  touch README.md, и го пополнав со  nano README.md, откако го зачував потоа направив git add README.md со кој од Untracked филеот одите во Staged , и потоа со  git commit -m "Initial commit" од staged одите во unmodified
+7.Се вратив со cd .. во минатион фолдер и напишав cp Desktop/SILab1Main.java Desktop/SILab1_1.java Desktop/SILab1_2.java SI_2024_lab1_223029/ и со ги копирав и додадов во папката
+8. git push -u origin master - додавање на фајловите во remote repo
+9.$ git branch bug1 $ git branch bug2
+10.$ git checkout bug1
+11.Со $ nano SILab1_1.java влегов во дукументот ја поправив грешката, потоа ја $ git add SILab1_1.java, ја $ git commit -m "Fix wrong condition in filterOddLenghtStrings" 
+12.$ git checkout bug2
+13.Со $ nano SILab1_2.java влегов во дукументот ја поправив грешката, потоа ја $ git add SILab1_2.java, ја $ git commit -m "Fix wrong condition in makeBigStringFrom" 
+14.$ git checkout bug1
+15.Со $ nano SILab1Main.java влегов во дукументот додадов, потоа ја $ git add SILab1Main.java , ја $ git commit -m "Call method filterOddLenghtStrings in main class." 
+16.$ git checkout bug2
+17.Со $ nano SIlab1Main.java влегов во дукументот додадов , потоа ја $ git add SILab1Main.java, ја $ git commit -m "Call method makeBigStringFrom in main class" 
+18.git push --all
+19.$ git checkout master
+20.$ git merge bug1
+21.$ git push --all
+22.$ git checkout bug2
+23.Кога искуцав $ git rebase master дојде до конфликт кој го решив така што влегов во филот со $ nano SILab1Main.java одлучив што да стои потоа $ git add SILab1Main.java и на крај $ git rebase --continue
+24.$ git checkout master
+25.$ git merge bug2
+26.$ git push --all
+27.Искористив $ git push --force origin bug2
+28.со git log >> logs.txt ги додадов сите logs во датотеката , со nano 223029.txt влегов во дукументот и додадов се.Направив add и последниот commit
+29.git push --all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
